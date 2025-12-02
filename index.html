@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Toby's Website</title>
+    <link rel="icon" type="image/x-icon" href="carousel1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="carousel.css">
+    <script>
+        /* UPDATE THE NUMBER TO MATCH THE NUMBER OF IMAGES */
+        /* For example, if you have carousel1.png to carousel3.png, set to 5 */
+        const numberOfImages = 3;
+        /* UPDATE THE SPEED OF THE AUTO CHANGE */
+        const speed = 8; /* in seconds */
+    </script>
+</head
+<body>
+    <header>
+        <nav id="main-nav">
+            <a href="index.html" title="Return to home page"><img id="logo" src="logo.png" alt="logo" class="logo" height="100px" width="100px"/></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="carousel.html">Carousel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div id="carousel-container">
+            <img id="carousel" src="media/carousel1.png" >
+            <div id="carousel-arrows">
+                <svg class="left-svg" width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 12H18M6 12L11 7M6 12L11 17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg class="right-svg" width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d=" M6 12H18M18 12L13 7M18 12L13 17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <!-- carousel dots -->
+            <div id="carousel-dots">
+
+        </div>
+        
+    </div>
+</body>
+<script src="carousel.js"></script>
+</html>
+ 
